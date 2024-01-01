@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string(column:'name');
             $table->string(column:'slug')->unique();
             $table->longText(column:'url')->nullable();
-            $table->string(column:'parent_hex')->nullable();
+            $table->string(column:'primary_hex')->nullable();
             $table->boolean(column:'is_available')->default(value:false);
             $table->longText(column:'description')->nullable();
 

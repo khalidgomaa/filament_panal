@@ -1,5 +1,5 @@
 <?php
-namespace app\enums;
+namespace app\Enums;
 
 enum OrderStatusEnum : string {
     case PENDING = 'pending';
